@@ -8,7 +8,7 @@ const CardSection = () => {
         title: "For Beginners",
         subtitle: "Launch Your First Website",
         bgColor: "bg-[#FFE979]",
-        btnBgColor: "bg-yellow-500",
+        btnBgColor: "bg-yellow-400",
         img: forBeginnersImg,
         buttons: ["Visual Builder", "Documentation", "Support", "Prebuilt Websites"],
       },
@@ -16,7 +16,7 @@ const CardSection = () => {
         title: "For Marketers",
         subtitle: "Generate Leads And Conversions",
         bgColor: "bg-[#B7F598]",
-        btnBgColor: "bg-green-500",
+        btnBgColor: "bg-green-400",
         img: forMarketersImg,
         buttons: ["Design", "SEO", "Shop Builder", "Form Builder"],
       },
@@ -24,14 +24,14 @@ const CardSection = () => {
         title: "For Professionals",
         subtitle: "Take Your Projects To The Next Level",
         bgColor: "bg-[#7ED5F0]",
-        btnBgColor: "bg-blue-500",
+        btnBgColor: "bg-sky-400",
         img: forProImg,
         buttons: ["All-In-One", "Patcher", "WCAG", "Dynamic Data"],
       },
     ];
   
     return (
-      <div className="flex justify-center items-center gap-8 min-h-[80vh] p-10">
+      <div className="flex justify-center flex-wrap items-center gap-8 p-10">
         {cards.map((card, index) => (
           <div
             key={index}
